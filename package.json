@@ -4,16 +4,19 @@
   "description": "a single Layer to be utilized in combination with the Base-L framework",
   "main": "",
   "scripts": {
-    "test": ""
+    "test": "stylelint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hanakin/base-l.utilities.git"
+    "url": "git+https://github.com/hanakin/base-l.settings.git"
   },
   "author": "Michael Miday (Hanakin)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hanakin/base-l.utilities./issues"
+    "url": "https://github.com/hanakin/base-l.settings./issues"
   },
-  "homepage": "https://github.com/hanakin/base-l.utilities.#readme"
+  "homepage": "https://github.com/hanakin/base-l.settings.#readme",
+  "devDependencies": {
+    "stylelint": "^6.4.0"
+  }
 }
