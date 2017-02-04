@@ -1,0 +1,19 @@
+{
+  "name": "base-l.settings",
+  "version": "0.10.1",
+  "description": "a single Layer to be utilized in combination with the Base-L framework",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanakin/base-l.utilities.git"
+  },
+  "author": "Michael Miday (Hanakin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanakin/base-l.utilities./issues"
+  },
+  "homepage": "https://github.com/hanakin/base-l.utilities.#readme"
+}
