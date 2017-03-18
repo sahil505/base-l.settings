@@ -1,6 +1,6 @@
 {
   "name": "base-l.settings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a single Layer to be utilized in combination with the Base-L framework",
   "main": "",
   "scripts": {
