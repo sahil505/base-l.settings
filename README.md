@@ -1,6 +1,5 @@
-[![Build Status](https://img.shields.io/travis/hanakin/base-l.settings/master.svg)](http://travis-ci.org/hanakin/base-l.settings/master)
+# Base-l.settings [![Version](https://www.npmjs.com/package/base-l.settings)](https://img.shields.io/npm/v/base-l.settings.svg?style=flat-square) [![Build Status](https://img.shields.io/travis/hanakin/base-l.settings/master.svg)](http://travis-ci.org/hanakin/base-l.settings/master)
 
-# Base-l.settings
 
 Is a single subset, a "Layer" to be utilized in combination with the
 [Base-l](https://github.com/hanakin/base-l) framework. The framework is a true
