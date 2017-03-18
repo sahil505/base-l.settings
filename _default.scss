@@ -8,35 +8,33 @@
 //
 // @settings
 
-$default-font-size: 16px !default;
-$default-line-height: 24px !default;
+$default-font-size:             16px !default;
+$default-line-height:           24px !default;
 
-$default-border-size: 1px !default;
-$default-border-radius: 2px !default;
+$default-border-size:           1px !default;
+$default-border-radius:         2px !default;
 
-$default-unit: 1rem !default;
-
-$default-grid-gutter: $default-unit;
+$default-grid-gutter:           16px !default;
 
 // Grid
-$sm: 540px;
-$md: 720px;
-$lg: 960px;
-$xl: 1140px;
+$sm: 540px !default;
+$md: 720px !default;
+$lg: 960px !default;
+$xl: 1140px !default;
 
-$bp-sm: 576px;
-$bp-md: 768px;
-$bp-lg: 992px;
-$bp-xl: 1200px;
+$bp-sm: 576px !default;
+$bp-md: 768px !default;
+$bp-lg: 992px !default;
+$bp-xl: 1200px !default;
 
 // Fonts
-$default-font: "Roboto", "Helvetica", "Arial", sans-serif !default;
-$default-code-font: "Monaco", "Andale Mono","Courier New", "Courier", "Mono" !default;
+$default-font: Roboto, Helvetica, Arial, sans-serif !default;
+$default-code-font: Monaco, Andale Mono, Courier New, Courier, Mono !default;
 
 // icons
-$default-icon-sm: $default-font-size;
-$default-icon-md: $default-line-height;
-$default-icon-lg: 2 * $default-font-size;
+$default-icon-sm: $default-font-size !default;
+$default-icon-md: $default-line-height !default;
+$default-icon-lg: 2 * $default-font-size !default;
 
 //
 // color scheme
@@ -44,10 +42,10 @@ $default-icon-lg: 2 * $default-font-size;
 // body
 $default-body-bg:                 $white !default;
 $default-body-color:              $gray-800 !default;
-$default-text-color:              $gray-900 !default; // 87%
-$default-gray-light:              $gray-300 !default; // 12%
-$default-gray:                    $gray-500 !default; // 38%
-$default-gray-dark:               $gray-600 !default; // 54%
+$default-text-color:              $black-87 !default; // 87%
+$default-gray-light:              $black-12 !default; // 12%
+$default-gray:                    $black-38 !default; // 38%
+$default-gray-dark:               $black-54 !default; // 54%
 
 // color scheme Main
 $default-primary-color:           $blue-500 !default;
@@ -75,3 +73,12 @@ $default-warning-dark-color:      $amber-700 !default;
 $default-info-dark-color:         $blue-gray-700 !default;
 $default-important-dark-color:    $red-700 !default;
 $default-success-dark-color:      $green-700 !default;
+
+// color scheme
+$default-link-color:              $blue-500 !default;
+$default-link-color-hover:        $blue-700 !default;
+$default-action-bg:               $gray-100 !default;
+$default-action-bg-hover:         $gray-200 !default;
+$default-action-color:            $black-54 !default;
+$default-action-color-hover:      $blue-500 !default;
+$default-action-icon-color:       $black-54 !default;

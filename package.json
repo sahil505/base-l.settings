@@ -1,10 +1,10 @@
 {
   "name": "base-l.settings",
-  "version": "0.10.1",
+  "version": "1.0.0",
   "description": "a single Layer to be utilized in combination with the Base-L framework",
   "main": "",
   "scripts": {
-    "test": "stylelint"
+    "test": "stylelint --config ./.stylelintrc './**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/hanakin/base-l.settings.#readme",
   "devDependencies": {
-    "stylelint": "^6.4.0"
+      "stylelint": "^7.8.0",
+      "stylelint-order": "^0.3.0",
+      "stylelint-scss": "^1.4.1"
   }
 }
